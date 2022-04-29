@@ -1,0 +1,37 @@
+.cardImg{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 22%;
+    height: 20rem;
+    font-size: 1rem;
+    background-color:#FFFFFF ;
+    border-radius: 15px;
+}
+.cardImg img{
+    width: 8rem;
+    height: 10rem;
+}
+.icons-star{
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.star{
+    width: 40%;
+    color: #FCDD06;
+    justify-content: space-between;
+    font-size: 1rem;
+    
+}
+.icon-button{
+    justify-content: space-between;
+    width: 100%;
+}
+.icon-button .button {
+    background-color: #F2F2F2 ;
+    width: 85%;}
+.icon-button svg{
+    color: #F2F2F2;
+}
