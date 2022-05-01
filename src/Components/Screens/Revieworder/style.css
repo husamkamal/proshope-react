@@ -1,0 +1,74 @@
+.Review-Order{
+    height: 41rem;
+    flex-direction: column;
+}
+.Review-Order .container h1{
+    color: #242424;
+    font-size: 2rem;
+}
+.Review-Order .container{
+    height: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+.section-container{
+    flex-direction: column;
+    /* align-self: flex-start; */
+    align-items: flex-start;
+
+}
+.Review-Order .container .shipping{
+    width: 50%;
+    justify-content: space-between;
+}
+.Review-Order .container .shipping hr{
+    width: 15%;
+}
+.Review-Order .container .payment h1 ,.Review-Order .container .payment2 h1{
+    font-size: 1rem;
+}
+.Review-Order .container .payment2 h1,.Review-Order .container .payment h1{
+    width: 80%;
+}
+.Review-Order .container .payment2 ,.Review-Order .container .payment {
+    width: 40%;
+    justify-content: space-between;
+}
+.Review-Order .container .payment2 span ,.Review-Order .container .payment span{
+    border: 1px solid black;
+    width: 2rem;
+    color: white;
+    text-align: center;
+}
+.Review-Order .container .payment2 span{
+    background-color: #707070;
+}
+.Review-Order .container .payment span{
+    background-color: #FCDD06;
+}
+.Address{
+    flex-direction: column;
+    height: 100%;
+    background-color: #F2F2F2;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.details{
+    margin-top: 2rem;
+    align-items: flex-start;
+    height: 85%;
+    justify-content: space-between;
+}
+.orderDetails{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    background-color: #F2F2F2;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.sub{
+    width: 100%;
+    height: 10rem;
+}

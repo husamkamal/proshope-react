@@ -1,0 +1,24 @@
+.orderCard{
+    height: 100%;
+    color: #707070;
+}
+.orderCard img{
+    width: 5rem;
+    height: 5rem;
+}
+.orderCard .memory{
+    justify-content: space-around;
+    height: 7rem;
+    flex-direction: column;
+}
+.orderCard .memory .h1{
+    font-size:1rem ;
+    color: #707070;
+}
+.orderCard .memory .costs{
+    width: 100%;
+    justify-content: space-between;
+}
+.orderCard .memory .costs span {
+    color: #707070;
+}
