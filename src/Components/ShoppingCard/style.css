@@ -1,0 +1,17 @@
+.shoppingCard {
+    height: 30%;
+    background-color: #F2F2F2;
+    width:95%;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.shoppingCard img{
+    width: 10rem;
+    height: 10rem;
+}
+.shoppingCard h1{
+    color: #242424;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    width: 50%;
+    }

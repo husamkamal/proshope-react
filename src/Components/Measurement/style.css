@@ -1,0 +1,13 @@
+.Measurement{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 6rem;
+    justify-content: space-around;
+}
+.number{
+    /* border: 1px solid rgb(231, 227, 227);     */
+    border-left: 1px solid rgb(231, 227, 227);
+    border-right: 1px solid rgb(231, 227, 227);
+    width: 30%;
+    text-align: center;
+}

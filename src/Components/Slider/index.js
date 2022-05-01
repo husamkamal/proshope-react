@@ -3,6 +3,7 @@ import H1 from "../H1";
 import Button from "../Button";
 import Img from "../Img";
 const Slider = (props) => {
+  
   return (
     <section key={props.info[props.index].id} className="slider flex">
       <div className="container flex">
@@ -13,6 +14,7 @@ const Slider = (props) => {
           <Button >{props.info[props.index].button}</Button>
         </div>
         <div className="images">
+            
           <Img src={props.info[props.index].src} />
         </div>
       </div>

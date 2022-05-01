@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shoppingSection{
+    background-color: #FFFFFF;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 85%;
+}
+.shopping1{
+    width: 100%;
+    flex-direction: column;
+}
+.shopping1 .container{
+    width: 90%;
+    align-items: flex-start;
+}
+.shopping1 > h1,.sidbar >h1{
+    color: #242424;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 90%;
+}
+.sidbar >h1{
+    font-size: 1.3rem;
+}
+.sidbar{
+    flex-direction: column;
+    width: 20%;
+    background-color: #F2F2F2;
+    padding: 1rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 13rem;
+    margin-top: .8rem;
+    border-radius: 15px;
+}
+.sidbar hr{
+    width: 100%;
+
+}
+.sidbar > button{
+    width: 100%;
+}
