@@ -1,0 +1,16 @@
+.emptycard{
+    background-image: url("../../Assets/Group\ 491.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 22rem;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+}
+.emptycard > h1{
+    font-size: 2rem;
+    color: #242424;
+}
+
+

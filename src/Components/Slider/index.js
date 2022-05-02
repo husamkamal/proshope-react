@@ -14,7 +14,6 @@ const Slider = (props) => {
           <Button >{props.info[props.index].button}</Button>
         </div>
         <div className="images">
-            
           <Img src={props.info[props.index].src} />
         </div>
       </div>

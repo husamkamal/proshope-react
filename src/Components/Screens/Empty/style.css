@@ -1,0 +1,19 @@
+.empty .container .emptySection > h1{
+    color: #707070;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.empty{
+    width: 100%;
+    flex-direction: column;
+}
+.empty .container{
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+.empty .container .emptySection{
+    width: 100%;
+    flex-direction: column;
+    height: 70vh;
+}
