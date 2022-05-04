@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 import H1 from "../../H1";
-import Contain from "../../ReviewOrder";
 import OrderCard from "../../orederCard";
 import Header from "../../Header";
 import Subtotal from "../../subtotal";
