@@ -8,6 +8,7 @@ import Empty from "./Components/Screens/Empty";
 import Place from "./Components/Screens/PlacePage";
 import Success from "./Components/Screens/Success";
 import Search from "./Components/Screens/Search";
+import Login from "./Components/Screens/login";
 class App extends Component {
   render(){
   return (
@@ -20,6 +21,7 @@ class App extends Component {
         < Route path="/place" element={<Place />} />
         < Route path="/success" element={<Success />} />
         < Route path="/search" element={<Search />} />
+        < Route path="/login" element={<Login />} />
       </Routes>
       
     </div>
