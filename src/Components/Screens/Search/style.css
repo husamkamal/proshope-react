@@ -1,0 +1,15 @@
+.search{
+    height: 80vh;
+}
+.search >section{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    height: 100%;
+}
+.search >section .h1-point{
+    text-align: center;
+}
+.search >section .range{
+    background-color: white;
+    justify-content: center;
+}

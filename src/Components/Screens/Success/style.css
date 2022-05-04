@@ -1,0 +1,44 @@
+.successContain{  
+    justify-content: space-between;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+
+}
+  .rightSuccess{
+      height: 100%;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: flex-start   ;
+    }
+    .leftSuccess{
+        height: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .leftSuccess > span{
+        color: #707070;
+        font-size: 1rem;
+        
+    }
+    .emptySectionSuccess{
+        flex-direction: column;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+        padding: 10px;
+    }
+        .emptySectionSuccess .h1{
+            width: 100%;
+            color: #242424;
+            margin-bottom: 1rem;
+        }
+        .suc > button{
+            display: flex;
+            align-self: flex-end;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }

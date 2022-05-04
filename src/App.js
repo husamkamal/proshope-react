@@ -5,6 +5,9 @@ import { Routes, Route } from "react-router-dom"
 import Shopping from "./Components/Screens/Shopping";
 import ReviewOrder from "./Components/Screens/Revieworder";
 import Empty from "./Components/Screens/Empty";
+import Place from "./Components/Screens/PlacePage";
+import Success from "./Components/Screens/Success";
+import Search from "./Components/Screens/Search";
 class App extends Component {
   render(){
   return (
@@ -14,6 +17,9 @@ class App extends Component {
         < Route path="/shopping" element={<Shopping />} />
         < Route path="/revieworder" element={<ReviewOrder />} />
         < Route path="/empty" element={<Empty />} />
+        < Route path="/place" element={<Place />} />
+        < Route path="/success" element={<Success />} />
+        < Route path="/search" element={<Search />} />
       </Routes>
       
     </div>

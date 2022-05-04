@@ -1,3 +1,39 @@
+.orderDetailsPlace{
+    flex-direction: column;
+    width: 25%;
+}
+.orderDetailsPlace > .button{
+    width: 75%;
+    margin-top: 1rem;
+    display: flex;
+    align-self: end;
+    justify-content: center;
+    align-items: center;
+}
+.AddressPlace{
+    flex-direction: column;
+    height: 100%;
+    background-color: #F2F2F2;
+    padding: 1rem;
+    align-items: flex-start;
+    border-radius: 15px;
+    width:70%;
+}
+.AddressPlace .orderCard{
+    width: 100%;
+}
+.John-rose{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 10rem;
+}
+.John-rose p{
+    width: 70%;
+}
+.Review-Order .container .payment2Place span{
+    background-color: #FCDD06;
+}
 .Review-Order{
     height: 41rem;
     flex-direction: column;
@@ -25,34 +61,24 @@
 .Review-Order .container .shipping hr{
     width: 15%;
 }
-.Review-Order .container .payment h1 ,.Review-Order .container .payment2 h1{
+.Review-Order .container .payment h1 ,.Review-Order .container .payment2Place h1{
     font-size: 1rem;
 }
-.Review-Order .container .payment2 h1,.Review-Order .container .payment h1{
+.Review-Order .container .payment2Place h1,.Review-Order .container .payment h1{
     width: 80%;
 }
-.Review-Order .container .payment2 ,.Review-Order .container .payment {
+.Review-Order .container .payment2Place ,.Review-Order .container .payment {
     width: 40%;
     justify-content: space-between;
 }
-.Review-Order .container .payment2 span ,.Review-Order .container .payment span{
+.Review-Order .container .payment2Place span ,.Review-Order .container .payment span{
     border: 1px solid black;
     width: 2rem;
     color: white;
     text-align: center;
 }
-.Review-Order .container .payment2 span{
-    background-color: #707070;
-}
 .Review-Order .container .payment span{
     background-color: #FCDD06;
-}
-.Address{
-    flex-direction: column;
-    height: 100%;
-    background-color: #F2F2F2;
-    padding: 1rem;
-    border-radius: 15px;
 }
 .details{
     margin-top: 2rem;
@@ -60,15 +86,7 @@
     height: 85%;
     justify-content: space-between;
 }
-.orderDetails > .button{
-    width: 75%;
-    margin-top: 1rem;
-    display: flex;
-    align-self: end;
-    justify-content: center;
-    align-items: center;
-}
-.orderDetails{
+.orderDetailsPlace{
     flex-direction: column;
     align-items: flex-start;
     padding-left: 1rem;

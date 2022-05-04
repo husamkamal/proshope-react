@@ -4,9 +4,6 @@ import React from "react";
 import H1 from "../H1";
 import Cost from "../Cost";
 const OrderCard = (props) => {
-  {
-    console.log(props);
-  }
   return (
     <div>
       <hr
