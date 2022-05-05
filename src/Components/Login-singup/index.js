@@ -8,7 +8,9 @@ const LoginSignup = (props) => {
     <div className="LoginSignup flex">
       <div className="LoginSignupContains flex">
         <H1>{props.info.h1}</H1>
-        <p>{props.info.p}</p>
+        <p style={{
+            color:"#707070"
+        }}>{props.info.p}</p>
         <form className="LoginSignupForm flex">
           {props.info.type.map((item, index) => {
             return <Input type={item}>{props.info.label[index]}</Input>;
@@ -33,7 +35,10 @@ const LoginSignup = (props) => {
                 <hr/>
             </div>
             <Button>Sign up now</Button>
-            </div>):""}
+            </div>):<div className="loginAcc">
+                <hr/>
+                <H1>Have an account ? Login</H1>
+                </div>}
           
         </form>
       </div>

@@ -1,0 +1,9 @@
+.signup .LoginSignup > .LoginSignupContains button{
+    height: 10;
+}
+.signup  .LoginSignupContains {
+    height: 90%;
+}
+.signup  .LoginSignupContains  form{
+    height: 70%;
+}

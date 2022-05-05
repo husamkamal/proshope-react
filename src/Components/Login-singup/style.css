@@ -59,3 +59,13 @@
     width: 50%;
     height: 90%;
 }
+.loginAcc {
+    width: 100%;
+    margin-top: 1rem;
+    height: 2rem;
+    text-align: center;
+}
+.loginAcc .h1{
+    color: #707070;
+    font-size: 1rem;
+}

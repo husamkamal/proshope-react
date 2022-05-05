@@ -1,0 +1,35 @@
+.tabel{
+    border: 1px solid #BCBCBC; 
+    width: 90%;
+    min-height: 110vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.tabel >h1{
+    font: normal normal bold 24px/15px Muli;
+    letter-spacing: 0.96px;
+    color: #242424;
+    
+}
+.ulList{
+    justify-content: space-between;
+    width: 100%;
+}
+.tabellist{
+    list-style: none;
+    height: 90vh;
+    width: 49%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tabellist >li{
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.tabellist>li:nth-child(even){ 
+    background: #F2F2F2 ;
+    border-radius: 10px;
+ }

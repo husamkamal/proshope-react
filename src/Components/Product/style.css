@@ -1,0 +1,86 @@
+.iphonContainer{
+    width: 90%;
+    min-height: auto;
+    justify-content: space-between;
+}
+.imagesIphon {
+    flex-direction: column;
+    width:  35%;
+    height: 90vh;
+    justify-content: space-around;
+}
+.imagesIphon img{
+    width: 7rem;
+    height: 10rem;
+}
+.iphonH1Cost >h1{
+    color: black;
+}
+.iphonDetails {
+    height: 90vh;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 65%;
+    justify-content: space-around;
+}
+.iphonDetails h1{
+    font-size: 1.2rem;
+}
+.iphonDetails p{
+    font-size: 1rem;
+}
+.iphonColorSizeButton{
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.iphonColorSize {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+.iphonColor ,.iphonSize{
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    height: 5rem;
+    justify-content: space-around;
+}
+.iphoncolor2{
+    width: 60%;
+    justify-content: space-around;
+}
+.iphoncolor2 span{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.iphonColorSpan1{
+    background: #FED6BC 0% 0% no-repeat padding-box;
+}
+.iphonColorSpan2{
+    border: 2px solid #242424;
+    background-color: #F2F2F2;
+}
+.iphonColorSpan3{
+    background: #6B7B73 0% 0% no-repeat padding-box;
+}
+.iphonSize2{
+    justify-content: space-around;
+    width: 70%;
+    
+}
+.iphonSize2 span{
+    background: #242424 0% 0% no-repeat padding-box;
+border-radius: 10px;
+color: white;
+width: 25%;
+text-align: center;
+}
+.iphonButton{
+    width: 30%;
+    
+}
+.iphonButton button{ 
+    width: 70%;
+}

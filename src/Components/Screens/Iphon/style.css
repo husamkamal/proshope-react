@@ -1,0 +1,9 @@
+.iphon{
+    flex-direction: column;
+}
+.iphon >h1{
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+    color: #242424;
+}

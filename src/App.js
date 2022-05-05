@@ -9,6 +9,8 @@ import Place from "./Components/Screens/PlacePage";
 import Success from "./Components/Screens/Success";
 import Search from "./Components/Screens/Search";
 import Login from "./Components/Screens/login";
+import Signup from "./Components/Screens/signup";
+import Iphon from "./Components/Screens/Iphon";
 class App extends Component {
   render(){
   return (
@@ -22,6 +24,8 @@ class App extends Component {
         < Route path="/success" element={<Success />} />
         < Route path="/search" element={<Search />} />
         < Route path="/login" element={<Login />} />
+        < Route path="/signup" element={<Signup />} />
+        < Route path="/iphon" element={<Iphon />} />
       </Routes>
       
     </div>
