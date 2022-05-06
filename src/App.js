@@ -11,6 +11,11 @@ import Search from "./Components/Screens/Search";
 import Login from "./Components/Screens/login";
 import Signup from "./Components/Screens/signup";
 import Iphon from "./Components/Screens/Iphon";
+import Airpods from "./Components/Screens/Airpods";
+import Ps4 from "./Components/Screens/Ps4";
+import Mouse from "./Components/Screens/Mouse";
+import Cam from "./Components/Screens/Cam";
+import Amazon from "./Components/Screens/Amazon";
 class App extends Component {
   render(){
   return (
@@ -26,6 +31,11 @@ class App extends Component {
         < Route path="/login" element={<Login />} />
         < Route path="/signup" element={<Signup />} />
         < Route path="/iphon" element={<Iphon />} />
+        < Route path="/airpods" element={<Airpods />} />
+        < Route path="/ps4" element={<Ps4 />} />
+        < Route path="/mouse" element={<Mouse />} />
+        < Route path="/cam" element={<Cam />} />
+        < Route path="/amazon" element={<Amazon />} />
       </Routes>
       
     </div>
