@@ -1,0 +1,26 @@
+.productTabel table{
+    width: 90%;
+    height: 100vh;
+}
+.tabelButton{
+    width: 87%;
+    display: flex;
+   justify-content: flex-end;
+}
+.tabelButton >button{
+    min-width: 20%;
+}
+.tabelPRo{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.tabelPRo tr{
+    padding: .5rem;
+    width: 95%;
+    justify-content: space-around;
+}
+.tabelPRo tr:nth-child(even){
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+border-radius: 10px;
+}
