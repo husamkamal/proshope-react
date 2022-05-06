@@ -1,0 +1,26 @@
+.reviews{
+    border: 1px solid #BCBCBC;
+    height: 110vh;
+    width: 90%;
+    padding: 1rem;
+}
+.reviews .h1{
+    font: normal normal bold 24px/15px Muli;
+letter-spacing: 0.96px;
+color: #242424;
+}
+.reviews .pa{
+height: 130px;
+background: #F2F2F2 0% 0% no-repeat padding-box;
+}
+.reviews p{
+    font: normal normal normal 16px/30px Muli;
+letter-spacing: 0.64px;
+color: #242424;
+}
+.reviewsContain{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 34%;
+}
