@@ -85,3 +85,29 @@
 .pearn{
     flex-direction: column;
 }
+@media only screen and (max-width:600px) {
+  .profile{
+    flex-direction: column;
+  }
+  .amy{
+    width: 100%;
+    height: 46%;
+  }
+  .myprofile{
+    width: 100%;
+    height: 52%;
+  }
+}
+@media (min-width:600px) and (max-width:900px) {
+  .profile{
+    flex-direction: column;
+  }
+  .amy{
+    width: 100%;
+    height: 46%;
+  }
+  .myprofile{
+    width: 100%;
+    height: 52%;
+  }
+}

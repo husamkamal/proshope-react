@@ -7,16 +7,16 @@ import Measurement from "../Measurement";
 import IphonColor from "../iphonColor";
 import IphonSize from "../IphonSize";
 import Button from "../Button";
-const Product = () => {
+const Product = (props) => {
     return (
         <main className="iphonContainer flex">
             
             <section className="imagesIphon flex">
-                <Img />
+                <Img src={props.src[0]} />
                 <div className="smallimgIphon">
-                    <Img />
-                    <Img />
-                    <Img />
+                    <Img src={props.src[1]} />
+                    <Img src={props.src[2]}/>
+                    <Img src={props.src[3]}/>
                 </div>
             </section>
             <section className="iphonDetails flex">

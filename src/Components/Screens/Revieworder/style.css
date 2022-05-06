@@ -80,3 +80,38 @@
     width: 100%;
     height: 10rem;
 }
+@media only screen and (max-width:600px) {
+    .Review-Order{
+        min-height: 180vh;
+        width: 99%;
+    }
+    .details{
+        flex-direction: column;
+        min-height: 150vh;
+    }
+    .Review-Order .container .shipping{
+
+        min-width: 100%;
+    }
+    .Address{
+        height: 56%;
+    }
+    
+}
+@media  (max-width:900px) and (min-width:600px){
+    .Review-Order{
+        min-height: 120vh;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .Address{
+        height: 49%;
+    }
+    .orderDetails{
+        width: 100%;
+    }
+    .Review-Order .container .shipping{
+        min-width:80%;
+    }
+} 

@@ -4,6 +4,7 @@ import Img from "../../Img";
 import H1 from "../../H1";
 import Button from "../../Button";
 import Header from "../../Header";
+import Images from "../../../Assets";
 class Profile extends Component {
   render() {
     return (
@@ -12,7 +13,7 @@ class Profile extends Component {
         <div className="profile flex">
           <div className="amy flex">
             <div className="image-h1 flex">
-              <Img />
+              <Img src={Images.Group240} />
               <H1>Amy Mayer</H1>
             </div>
             <div className="myorder flex">
@@ -42,7 +43,7 @@ class Profile extends Component {
               <Button>Change Password</Button>
             </div>
             <div className="photo flex">
-              <Img />
+              <Img src={Images.Group421} />
               <Button>Upload new photo</Button>
             </div>
           </div>

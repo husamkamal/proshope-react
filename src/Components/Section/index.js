@@ -18,7 +18,7 @@ const Section = (props) => {
         <div className="cards flex">
           {console.log(props.info)}
             {props.info.span.map((item,index)=>{
-                return <CardImg index={index} cost={props.info.cost} h1={props.info.h1} src={props.info.src}>{item}</CardImg>
+                return <CardImg index={index} cost={props.info.cost} h1={props.info.h1} src={props.info.src[index]}>{item}</CardImg>
             })}
             {/* {props.info.isTrue?(props.info.cost.map((item)=>{
                 console.log(props.info.cost)

@@ -7,18 +7,20 @@ import Product from "../../Product";
 import Tabel from "../../Tabel";
 import Reviews from "../../Reviews";
 import Section from "../../Section";
+import Images from "../../../Assets";
 class Ps4 extends Component {
     state = {
+      src:[Images.Img4,Images.Img6,Images.Img16,Images.Img16],
         card: [
           {
             isStar: "true",
             h1: "Featured Products",
             span: [
               "Apple iPhone 11 Pro 256GB Memory",
-              "Apple Ps4 Wireless Bluetooth Headset",
+              "Apple Airpods Wireless Bluetooth Headset",
               "Sony Playstation 4 Pro White Version",
             ],
-            src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            src:[Images.Img11,Images.Img10,Images.Img9],
             cost: ["$499.99", "$89.99", "$399.99"],
           },
         ],

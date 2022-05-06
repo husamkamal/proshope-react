@@ -18,6 +18,7 @@ import Cam from "./Components/Screens/Cam";
 import Amazon from "./Components/Screens/Amazon";
 import Profile from "./Components/Screens/Profile";
 import ProductscRUD from "./Components/Screens/ProductsCRUD";
+import Productcreat from "./Components/Screens/Productcreat";
 class App extends Component {
   render(){
   return (
@@ -40,6 +41,7 @@ class App extends Component {
         < Route path="/amazon" element={<Amazon />} />
         < Route path="/profile" element={<Profile />} />
         < Route path="/tabel" element={<ProductscRUD />} />
+        
       </Routes>
       
     </div>

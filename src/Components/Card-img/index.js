@@ -9,7 +9,7 @@ import {
 import Cost from "../Cost";
 const CardImg = (props) => {
     return (
-        <div className="cardImg flex">
+        <div className="cardImg flex" > 
             <Img src={props.src}    alt="" />
             <span>{props.children}</span>
             {props.children!=="LAPTOP"&&props.children!=="COMPUTER COMPONENTS"&&props.children!=="DEVICES"&&props.children!=="ACCESSORIES" ?(<div className="icons-star flex" >

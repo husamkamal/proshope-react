@@ -84,3 +84,11 @@ text-align: center;
 .iphonButton button{ 
     width: 70%;
 }
+@media only screen and (max-width:600px) {
+    .iphonContainer{
+        flex-direction: column;
+    }
+    .iphonDetails{
+        width: 100%;
+    }
+    }

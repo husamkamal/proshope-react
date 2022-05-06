@@ -5,11 +5,12 @@ import "./style.css"
 import H1 from '../../H1';
 import Cost from '../../Cost';
 import Button from '../../Button';
+import Images from '../../../Assets';
 class Shopping extends Component {
     state={shopCard:[
-        {id:1,h1:"Apple iPhone 11 Pro 256GB Memory",cost:"$499.99"},
-        {id:2,h1:"Apple Airpods Wireless Bluetooth Headset",cost:"$89.99"},
-        {id:3,h1:"Sony PlayStation 4 Pro White Version",cost:"$399.99"}
+        {id:1,h1:"Apple iPhone 11 Pro 256GB Memory",cost:"$499.99",src:Images.Img14},
+        {id:2,h1:"Apple Airpods Wireless Bluetooth Headset",cost:"$89.99",src:Images.Img23},
+        {id:3,h1:"Sony PlayStation 4 Pro White Version",cost:"$399.99",src:Images.Img6}
     ]}
     render() {
         return (

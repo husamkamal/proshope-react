@@ -46,3 +46,19 @@
 .sidbar > button{
     width: 100%;
 }
+@media only screen and (max-width:600px) {
+    .shoppingSection{
+        width: 100%;
+    }
+    .sidbar{
+        width: 100%;
+    }
+}
+@media  (min-width:600px) and (max-width:900px) {
+    .shoppingSection{
+        width: 100%;
+    }
+    .sidbar{
+        width: 100%;
+    }
+}

@@ -1,17 +1,52 @@
 .shoppingCard {
-    height: 30%;
-    background-color: #F2F2F2;
-    width:95%;
-    justify-content: space-around;
-    border-radius: 15px;
+  height: 30%;
+  background-color: #f2f2f2;
+  width: 95%;
+  justify-content: space-around;
+  border-radius: 15px;
 }
-.shoppingCard img{
-    width: 10rem;
-    height: 10rem;
+.shoppingCard img {
+  width: 10rem;
+  height: 10rem;
 }
-.shoppingCard h1{
-    color: #242424;
-    margin-bottom: 5rem;
-    font-size: 1.5rem;
-    width: 50%;
+.shoppingCard h1 {
+  color: #242424;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .shoppingCard {
+    width: 100%;
+  }
+  .shoppingCard h1 {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+    width: 28%;
+  }
+  .shoppingCard img {
+    width: 5rem;
+    height: 15rem;
+  }
+  .shoppingCard span {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .shoppingCard {
+      width: 100%;
     }
+    .shoppingCard h1 {
+      font-size: 1.2rem;
+      margin-bottom: 0;
+      width: 28%;
+    }
+    .shoppingCard img {
+      width: 10rem;
+      height: 15rem;
+    }
+    .shoppingCard span {
+      font-size: 1.5rem;
+    }
+
+}

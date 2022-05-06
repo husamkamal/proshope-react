@@ -13,7 +13,7 @@ const OrderCard = (props) => {
       />
 
       <div className="orderCard flex">
-        <Img />
+        <Img src={props.info.src}/>
         <div className="memory flex">
           <H1>{props.info.h1}</H1>
           <div className="costs flex">

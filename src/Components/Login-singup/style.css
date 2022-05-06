@@ -69,3 +69,22 @@
     color: #707070;
     font-size: 1rem;
 }
+@media only screen and (max-width:600px) {
+    .LoginSignup{
+        flex-direction: column;
+    }
+    .LoginSignupContains{
+        height: 100%;
+    width: 90%;
+    }
+}
+@media (min-width:600px) and (max-width:900px) {
+    .LoginSignup{
+        flex-direction: column;
+    }
+    .LoginSignupContains{
+        height: 100%;
+    width: 90%;
+    }
+    
+}

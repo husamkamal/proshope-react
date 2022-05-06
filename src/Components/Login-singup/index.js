@@ -42,7 +42,7 @@ const LoginSignup = (props) => {
           
         </form>
       </div>
-      <Img />
+      <Img src={props.info.src} />
     </div>
   );
 };

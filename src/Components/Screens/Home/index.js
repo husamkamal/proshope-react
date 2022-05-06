@@ -4,7 +4,7 @@ import Header from "../../Header";
 import React, { Component } from "react";
 // import Section from "../../Section";
 // import { Card } from "reactstrap";
-
+import Images from "../../../Assets";
 class Home extends Component {
   state = {
     slider: [
@@ -14,7 +14,7 @@ class Home extends Component {
         h1: "PlayStation 5",
         p: "Lightning-fast download speed with super-fast SSD storage",
         button: "Shop now",
-        src:"../../Assets/img1.PNG"
+        src:Images.Img1
       },
       {
         id: 2,
@@ -22,7 +22,7 @@ class Home extends Component {
         h1: "APPLE AIRPODS",
         p: "AirPods are the best-selling headphones in the world",
         button: "Shop now",
-        src:"../../Assets/img44.PNG",
+        src:Images.Img12,
       },
       {
         id: 3,
@@ -30,14 +30,14 @@ class Home extends Component {
         h1: "iPhone 11 PRO",
         p: "Pro cameras.Pro display. Pro performance.",
         button: "Shop now",
-        src:"../../Assets/img14.PNG",
+        src:Images.Img13,
       },
     ],
     card: [
       {
         h1: "Featured Categoriesh",
         span: ["LAPTOP", "COMPUTER COMPONENTS", "DEVICES", "ACCESSORIES"],
-        src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+        src: [Images.Img2,Images.Img3,Images.Img5,Images.Img4],
       },
       {
         isStar: "true",
@@ -47,7 +47,7 @@ class Home extends Component {
           "Apple Airpods Wireless Bluetooth Headset",
           "Sony Playstation 4 Pro White Version",
         ],
-        src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+        src: [Images.Img14,Images.Img23,Images.Img6],
         cost: ["$499.99", "$89.99", "$399.99"],
       },
       {
@@ -58,7 +58,7 @@ class Home extends Component {
           "Apple Airpods Wireless Bluetooth Headset",
           "Sony Playstation 4 Pro White Version",
         ],
-        src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+        src:[Images.Img11,Images.Img10,Images.Img9],
         cost: ["$499.99", "$89.99", "$399.99"],
       },
     ],

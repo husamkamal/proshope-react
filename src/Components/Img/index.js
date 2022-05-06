@@ -2,7 +2,7 @@ import "./style.css"
 
 const Img = (props) => {
     return (
-        <img  src={require("../../Assets/img44.PNG")} alt="" />
+        <img  src={props.src} alt="" />
     );
 }
 

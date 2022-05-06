@@ -34,6 +34,22 @@
   color: #FFFFFF;
 }
 @media only screen and (max-width: 600px){
+  .header >span ,.header >span h1  {
+    font-size: 1rem;
+  }
+  .input-label{
+    width: 20%;
+  }
+  .input-label input{
+    width: 30%;
+  }
+  .icons{
+    width: 40%;
+    justify-content: space-around;
+  }
+  
+}
+/* @media only screen and (max-width: 600px){
   .header{
     width: 100%;
   }
@@ -77,4 +93,4 @@
     font-size: 15px;
   }
   
-}
+} */

@@ -2,6 +2,7 @@ import "./style.css"
 import React, { Component } from 'react';
 import Section from "../../Section"
 import Header from "../../Header";
+import Images from "../../../Assets";
 class Search extends Component {
     state={
         card:{
@@ -10,7 +11,7 @@ class Search extends Component {
             span: 
               ["Apple iPhone 11 Pro 256GB Memory"],
              
-            src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            src:[Images.Img14],
             cost: "$499.99"
           }
     }

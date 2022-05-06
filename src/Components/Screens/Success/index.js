@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Header from "../../Header";
 import Section from "../../Section";
 import Button from "../../Button";
+import Images from "../../../Assets";
 class Success extends Component {
   state = {
     card: [
@@ -15,7 +16,7 @@ class Success extends Component {
           "Apple Airpods Wireless Bluetooth Headset",
           "Sony Playstation 4 Pro White Version",
         ],
-        src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+        src:[Images.Img11,Images.Img10,Images.Img9],
         cost: ["$499.99", "$89.99", "$399.99"],
       },
     ],

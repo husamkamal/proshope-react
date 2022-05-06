@@ -7,8 +7,10 @@ import Product from "../../Product";
 import Tabel from "../../Tabel";
 import Reviews from "../../Reviews";
 import Section from "../../Section";
+import Images from "../../../Assets";
 class Airpods extends Component {
     state = {
+      src:[Images.Img22,Images.Img23,Images.Img24,Images.Img25],
         card: [
           {
             isStar: "true",
@@ -18,7 +20,7 @@ class Airpods extends Component {
               "Apple Airpods Wireless Bluetooth Headset",
               "Sony Playstation 4 Pro White Version",
             ],
-            src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+            src:[Images.Img11,Images.Img10,Images.Img9],
             cost: ["$499.99", "$89.99", "$399.99"],
           },
         ],
@@ -42,7 +44,7 @@ class Airpods extends Component {
             <div className="iphon flex">
             <Header />
             <H1>Back / iPhone 11 Pro 256GB Memory</H1>
-            <Product />
+            <Product src={this.state.src} />
             <H1>Specification</H1>
             <Tabel />
             <H1>Reviews</H1>

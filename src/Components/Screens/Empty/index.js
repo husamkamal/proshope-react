@@ -4,19 +4,20 @@ import React, { Component } from "react";
 import Emptycard from "../../EmptyCard";
 import Header from "../../Header";
 import Section from "../../Section";
+import Images from "../../../Assets";
 class Empty extends Component {
     state={card: [
-        {
-          isStar: "true",
-          h1: "Featured Products",
-          span: [
-            "Apple iPhone 11 Pro 256GB Memory",
-            "Apple Airpods Wireless Bluetooth Headset",
-            "Sony Playstation 4 Pro White Version",
-          ],
-          src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-          cost: ["$499.99", "$89.99", "$399.99"],
-        }]}
+      {
+        isStar: "true",
+        h1: "Featured Products",
+        span: [
+          "Apple iPhone 11 Pro 256GB Memory",
+          "Apple Airpods Wireless Bluetooth Headset",
+          "Sony Playstation 4 Pro White Version",
+        ],
+        src:[Images.Img11,Images.Img10,Images.Img9],
+        cost: ["$499.99", "$89.99", "$399.99"],
+      }]}
   render() {
     return (
       <div className="empty flex">

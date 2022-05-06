@@ -5,6 +5,7 @@ import OrderCard from "../../orederCard";
 import Header from "../../Header";
 import Subtotal from "../../subtotal";
 import Button from "../../Button";
+import Images from "../../../Assets";
 class Place extends Component {
   state = {
     contain: [
@@ -25,13 +26,13 @@ class Place extends Component {
     ],
     orderDetails: [
       {
-        src: "",
+        src: Images.Img14,
         h1: "iPhone 11 Pro 256GB Memory",
         cost: "$499.99 x1",
         cost2: "$499.99",
       },
       {
-        src: "",
+        src: Images.Img23,
         h1: "Apple Airpods Wireless Bluetooth Headset",
         cost: "$89.99 x1",
         cost2: "$89.99",

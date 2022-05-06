@@ -98,3 +98,22 @@
     width: 100%;
     height: 10rem;
 }
+@media only screen and (max-width:600px) {
+    .AddressPlace{
+        width: 100%;
+        height: 74%;
+    }
+    .orderDetailsPlace{
+        width: 100%;
+    }
+}
+@media (min-width:600px) and (max-width:900px) {
+    .AddressPlace{
+        width: 100%;
+        height: 65%;
+    }
+    .orderDetailsPlace{
+        width: 100%;
+    }
+    
+}

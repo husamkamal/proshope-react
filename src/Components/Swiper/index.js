@@ -20,7 +20,7 @@ const Swiper1 = (props) => {
             //   scrollbar={{ draggable: false }}
               // onSwiper={(swiper) => console.log(swiper)}
               // onSlideChange={}
-              style={{maxWidth:"80%",paddingBottom:"2rem"}}
+              style={{maxWidth:"99%",paddingBottom:"2rem",  }}
             >
               {props.isSlider?props.items.map((item,index)=>{
                 return <SwiperSlide><Slider key={item.id} index={index} info={props.items} /></SwiperSlide>

@@ -1,5 +1,6 @@
 .iphon{
     flex-direction: column;
+    height:180rem;
 }
 .iphon >h1{
     display: flex;
@@ -9,4 +10,9 @@
 }
 .iphon .section{
     height: 70vh;
+}
+@media only screen and (max-width:600px) {
+    .iphon > .section > .container .cards{
+        height: 150%;
+    } 
 }

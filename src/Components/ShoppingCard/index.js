@@ -9,7 +9,7 @@ import Measurement from '../Measurement';
 const ShoppingCard = (props) => {
     return (
         <div className='shoppingCard flex'>
-            <Img/>
+            <Img src={props.info.src}/>
             <H1 style={{color:"#242424"}}>{props.info.h1}</H1>
             <Measurement />
             <Cost style={{color:"#FFFFFF"}}>{props.info.cost}</Cost>
