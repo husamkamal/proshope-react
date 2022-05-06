@@ -16,6 +16,7 @@ import Ps4 from "./Components/Screens/Ps4";
 import Mouse from "./Components/Screens/Mouse";
 import Cam from "./Components/Screens/Cam";
 import Amazon from "./Components/Screens/Amazon";
+import Profile from "./Components/Screens/Profile";
 class App extends Component {
   render(){
   return (
@@ -36,6 +37,7 @@ class App extends Component {
         < Route path="/mouse" element={<Mouse />} />
         < Route path="/cam" element={<Cam />} />
         < Route path="/amazon" element={<Amazon />} />
+        < Route path="/profile" element={<Profile />} />
       </Routes>
       
     </div>
