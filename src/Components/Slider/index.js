@@ -12,15 +12,15 @@ const Slider = (props) => {
           <H1 isTrue={"true"}>{props.info[props.index].h1}</H1>
           <p>{props.info[props.index].p}</p>
           {props.index === 0 ? (
-            <Link className="linkSlider" to="/mouse">
+            <Link className="linkSlider" to="/ps4">
               <Button>{props.info[props.index].button}</Button>
             </Link>
           ) : props.index === 1 ? (
-            <Link to="/airpods">
+            <Link className="linkSlider" to="/airpods">
               <Button>{props.info[props.index].button}</Button>
             </Link>
           ) : props.index === 2 ? (
-            <Link to="/iphon">
+            <Link className="linkSlider" to="/iphon">
               <Button>{props.info[props.index].button}</Button>
             </Link>
           ) : (

@@ -10,7 +10,7 @@ import Section from "../../Section";
 import Images from "../../../Assets";
 class Ps4 extends Component {
     state = {
-      src:[Images.Img4,Images.Img6,Images.Img16,Images.Img16],
+      src:[Images.Img6,Images.Img6,Images.Img16,Images.Img16],
         card: [
           {
             isStar: "true",
@@ -44,7 +44,7 @@ class Ps4 extends Component {
             <div className="iphon flex">
             <Header />
             <H1>Back / iPhone 11 Pro 256GB Memory</H1>
-            <Product />
+            <Product src={this.state.src} />
             <H1>Specification</H1>
             <Tabel />
             <H1>Reviews</H1>

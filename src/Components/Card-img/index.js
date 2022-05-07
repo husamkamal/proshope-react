@@ -18,8 +18,8 @@ const CardImg = (props) => {
         <Link to="/airpods" replace={true}>
           <Img src={props.src} alt="" />
         </Link>
-      ) : props.src === Images.Img23 ? (
-        <Link to="/iphon" replace={true}>
+      ) : props.src === Images.Img6? (
+        <Link to="/ps4" replace={true}>
           <Img src={props.src} alt="" />
         </Link>
       ): 
