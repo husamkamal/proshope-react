@@ -80,6 +80,9 @@
     width: 100%;
     height: 10rem;
 }
+.reviLink{
+    width: 100%;
+}
 @media only screen and (max-width:600px) {
     .Review-Order{
         min-height: 180vh;

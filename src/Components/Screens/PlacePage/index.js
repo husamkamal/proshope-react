@@ -6,6 +6,8 @@ import Header from "../../Header";
 import Subtotal from "../../subtotal";
 import Button from "../../Button";
 import Images from "../../../Assets";
+import { Link } from "react-router-dom";
+
 class Place extends Component {
   state = {
     contain: [
@@ -78,7 +80,9 @@ class Place extends Component {
                 }}
               />
               <Subtotal />
-              <Button>Review order</Button>
+              <Link className="placeLink" to={"/success"} replace={true}>
+                <Button>Review order</Button>
+              </Link>
             </section>
           </div>
         </div>

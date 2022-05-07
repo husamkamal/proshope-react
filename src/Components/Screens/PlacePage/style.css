@@ -98,6 +98,12 @@
     width: 100%;
     height: 10rem;
 }
+.placeLink{
+    width: 10rem;
+}
+.placeLink button{
+    width: 100%;
+}
 @media only screen and (max-width:600px) {
     .AddressPlace{
         width: 100%;

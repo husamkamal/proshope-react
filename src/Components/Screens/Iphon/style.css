@@ -1,6 +1,5 @@
 .iphon{
     flex-direction: column;
-    height:180rem;
 }
 .iphon >h1{
     display: flex;

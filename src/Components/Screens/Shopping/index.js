@@ -6,6 +6,7 @@ import H1 from '../../H1';
 import Cost from '../../Cost';
 import Button from '../../Button';
 import Images from '../../../Assets';
+import { Link } from "react-router-dom";
 class Shopping extends Component {
     state={shopCard:[
         {id:1,h1:"Apple iPhone 11 Pro 256GB Memory",cost:"$499.99",src:Images.Img14},
@@ -27,7 +28,9 @@ class Shopping extends Component {
                     <H1>Subtotal (3) items</H1>
                     <Cost>$989.97</Cost>
                     <hr/>
-                    <Button>Proceed to checkout</Button>
+                    <Link className='linkShopping' to={"/revieworder"} replace={true}>
+                        <Button>Proceed to checkout</Button>
+                    </Link>
                 </div>
                 </dvi>
             </div>

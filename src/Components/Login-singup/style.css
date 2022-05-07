@@ -69,6 +69,15 @@
     color: #707070;
     font-size: 1rem;
 }
+.loginLink{
+    width: 10rem;
+}
+.loginLink button{
+    width: 100%;
+}
+.signupLink{
+    text-decoration: none;
+}
 @media only screen and (max-width:600px) {
     .LoginSignup{
         flex-direction: column;

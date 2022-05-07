@@ -5,6 +5,7 @@ import Header from "../../Header";
 import Section from "../../Section";
 import Button from "../../Button";
 import Images from "../../../Assets";
+import { Link } from "react-router-dom"
 class Success extends Component {
   state = {
     card: [
@@ -49,7 +50,9 @@ class Success extends Component {
               confirmation and tacking code.
             </p>
           </section>
-          <Button>Keep Shopping</Button>
+          <Link className="successLink" to={"/"} replace={true}>
+            <Button>Keep Shopping</Button>
+          </Link>
           <Section info={this.state.card[0]} />
         </div>
       </div>

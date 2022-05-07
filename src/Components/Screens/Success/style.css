@@ -35,10 +35,14 @@
             color: #242424;
             margin-bottom: 1rem;
         }
-        .suc > button{
+        .suc >.successLink{
             display: flex;
             align-self: flex-end;
             justify-content: center;
             align-items: center;
-            margin-bottom: 2rem;
+            width: 10rem;
+            text-decoration: none;
+        }
+        .successLink >button {
+            width: 100%;
         }

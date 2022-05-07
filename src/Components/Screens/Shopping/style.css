@@ -46,6 +46,12 @@
 .sidbar > button{
     width: 100%;
 }
+.linkShopping {
+    width:10rem;
+}
+.linkShopping button{
+    width: 100%;
+}
 @media only screen and (max-width:600px) {
     .shoppingSection{
         width: 100%;
